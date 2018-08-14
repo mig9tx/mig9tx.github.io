@@ -1,0 +1,55 @@
+body {
+    width: 960px;
+    margin: 0 auto 0;
+}
+h1 {
+    background-color:teal;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px; 
+    text-align: center;
+    width: 250px;
+    float: left;
+    position: relative;
+}
+
+ul{
+    float: right;
+    /* position:absolute; */
+    margin-top: 80px;
+    
+      
+    
+}
+li {
+display:inline;vertical-align: center;
+}
+
+h2 {
+   clear:both; 
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+ img.align-left {
+     float: left;
+     margin-right: 20px;
+     
+ }
+
+  
+    
+
+
+h2 {
+    color: teal;
+}
+
+h1, h2 {
+    font-family: "Georgia", 'Times New Roman', Times, serif
+}
