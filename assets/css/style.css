@@ -29,31 +29,26 @@ ul{
     float: right;
     /* position:absolute; */
     margin-top: 80px;
-    
-      
-    
 }
+
 li {
-display:inline;vertical-align: center;
+display:inline;
+text-align: center;
 }
 
 h2 {
    clear:both; 
 }
 
-
 a {
     text-decoration: none;
     color: black;
 }
- img.align-left {
+
+img.align-left {
      float: left;
      margin-right: 20px;
- }
-
-  
-    
-
+}
 
 h2 {
     color: teal;
