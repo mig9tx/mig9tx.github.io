@@ -1,2 +1,3 @@
-# mig9tx.github.io
-Personal Portfolio
+# Bootstrap-Portfolio
+
+This is my personal portfolio made using Bootstrap.
