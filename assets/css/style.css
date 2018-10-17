@@ -1,3 +1,14 @@
+
+
+.hideme {
+    opacity:0;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
 #main-nav{
     overflow: hidden;
     background-color: rgb(224, 100, 16);
@@ -6,6 +17,16 @@
     width: 100%;
     z-index: 1;
     color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+.nav-link:hover {
+    transform: scale(1.2);
+}
+
+#workExperience, .container {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 #social {
@@ -53,9 +74,12 @@ h3{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 50%;
+    border-radius: 200px;
+    box-sizing: border-box;
+    /* background-color: rgb(224, 100, 16) #ddd; */
+    border: 5px solid rgb(224, 100, 16);
     padding: 30px;
-    border-color: white;
+    /* border-color: rgb(224, 100, 16); */
     border: 10px;
     
 }
@@ -86,21 +110,27 @@ body {
 }
 
 h1{
-    /* font-family: 'Roboto', sans-serif, Arial, Helvetica, sans-serif; */
-    /* font-family: 'Amiko', sans-serif; */
-    /* font-family: 'Arima Madurai', cursive; */
-    /* font-family: 'Farsan', cursive; */
-    font-family: 'Lalezar', cursive;
-    /* font-family: 'Mogra', cursive; */
-    /* font-family: 'Rakkas', cursive; */
-    /* font-family: 'Rasa', serif; */
-    /* font-family: 'Shrikhand', cursive; */
-    /* font-family: 'Suez One', serif; */
-    /* font-family: 'Yatra One', cursive; */
+/* font-family: 'Lobster', cursive; */
+/* font-family: 'Acme', sans-serif; */
+/* font-family: 'Righteous', cursive; */
+/* font-family: 'Ranga', cursive; */
+/* font-family: 'Francois One', sans-serif; */
+/* font-family: 'Kaushan Script', cursive; */
+font-family: 'Audiowide', cursive;
+/* font-family: 'Montserrat Alternates', sans-serif; */
+/* font-family: 'Playball', cursive; */
+/* font-family: 'Oleo Script', cursive; */
+/* font-family: 'Carter One', cursive; */
+text-shadow: 2px 2px 4px #000000;
 }
 
 h1, h4{
 text-align: center;
+}
+
+h3, h4{
+    font-family: 'Acme', sans-serif;
+    text-shadow: 2px 2px 4px #7c7b7b;
 }
 
 .responsive { 
@@ -112,6 +142,7 @@ text-align: center;
     background-color: white;
     margin: 30px;
     Padding: 30px;
+    border-radius: 15px;
 }
 
 .row {
