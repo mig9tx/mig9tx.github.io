@@ -25,6 +25,34 @@ html {
     opacity:0;
 }
 
+i {
+    padding-right: 20px;
+    color: rgb(224, 100, 16);
+    display: block;
+    padding: 3px !important;
+    border: 5px;
+    
+}
+#list-current {
+    text-align: center;
+}
+
+
+#skill-logo {
+    position: relative;
+    display: inline-block;
+    
+}
+
+#skills {
+    border: 1px solid rgb(224, 100, 16);
+    border-radius: 5px;
+    display: inline-block;
+    padding: 5px;
+    box-shadow: 2.5px 5px grey;
+    
+}
+
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
@@ -54,9 +82,9 @@ html {
     width: 30px;
     color: orange;
 }
-main {
+/* main {
     background-image: url(/assets/images/truck.jpg)
-}
+} */
 h3{
     text-align: center;
 }
@@ -70,7 +98,7 @@ h3{
     margin: auto;
 }
 .header{
-    font-family: 'Roboto', sans-serif, Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif, Arial, Helvetica, sans-serif !important;
     /* font-family: 'Amiko', sans-serif; */
     /* font-family: 'Arima Madurai', cursive; */
     /* font-family: 'Farsan', cursive; */
@@ -123,7 +151,7 @@ h3{
 body {
     margin-left: 30px;
     margin-right: 30px;
-    background-color: rgb(224, 100, 16);
+    background-color: rgb(224, 100, 16) !important;
 }
 
 .fab .fa-linkedin {
@@ -137,7 +165,7 @@ h1{
 /* font-family: 'Ranga', cursive; */
 /* font-family: 'Francois One', sans-serif; */
 /* font-family: 'Kaushan Script', cursive; */
-font-family: 'Audiowide', cursive;
+font-family: 'Audiowide', cursive !important;
 /* font-family: 'Montserrat Alternates', sans-serif; */
 /* font-family: 'Playball', cursive; */
 /* font-family: 'Oleo Script', cursive; */
@@ -150,7 +178,7 @@ text-align: center;
 }
 
 h3, h4{
-    font-family: 'Acme', sans-serif;
+    font-family: 'Acme', sans-serif !important;
     text-shadow: 2px 2px 4px #7c7b7b;
 }
 
