@@ -1,28 +1,50 @@
 html {
     font-size: 1rem;
-    margin: 0 auto 0 auto;
-  }
-  
-  @include media-breakpoint-up(sm) {
-    html {
-      font-size: 1.2rem;
+    /* margin: 0 auto 0 auto; */
+}
+
+@media screen and (max-width: 767px){
+    .margin-top-xs{
+        margin-top: 80px;}
+        p { font-size: 0.8rem;
+        }
+}
+
+
+@include media-breakpoint-up(xs) {
+    .margin-top-xs {
+        margin-top: 20px;
     }
-  }
-  
-  @include media-breakpoint-up(md) {
+}
+
+@include media-breakpoint-up(sm) {
     html {
-      font-size: 1.4rem;
+        font-size: 1.2rem;
+
+
+        .main-container {
+            margin: 10px !important;
+        }
+
+
+
     }
-  }
-  
-  @include media-breakpoint-up(lg) {
+}
+
+@include media-breakpoint-up(md) {
     html {
-      font-size: 1.6rem;
+        font-size: 1.4rem;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    html {
+        font-size: 1.6rem;
     }
 }
 
 .hideme {
-    opacity:0;
+    opacity: 0;
 }
 
 i {
@@ -31,8 +53,9 @@ i {
     display: block;
     padding: 3px !important;
     border: 5px;
-    
+
 }
+
 #list-current {
     text-align: center;
 }
@@ -41,7 +64,7 @@ i {
 #skill-logo {
     position: relative;
     display: inline-block;
-    
+
 }
 
 #skills {
@@ -50,7 +73,7 @@ i {
     display: inline-block;
     padding: 5px;
     box-shadow: 2.5px 5px grey;
-    
+
 }
 
 .card {
@@ -58,7 +81,7 @@ i {
 
 }
 
-#main-nav{
+#main-nav {
     overflow: hidden;
     background-color: rgb(224, 100, 16);
     position: fixed;
@@ -68,11 +91,13 @@ i {
     color: white;
     text-shadow: 2px 2px 4px #000000;
 }
+
 .nav-link:hover {
     transform: scale(1.2);
 }
 
-#workExperience, .container {
+#workExperience,
+.container {
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
@@ -82,10 +107,11 @@ i {
     width: 30px;
     color: orange;
 }
+
 /* main {
     background-image: url(/assets/images/truck.jpg)
 } */
-h3{
+h3 {
     text-align: center;
 }
 
@@ -93,11 +119,13 @@ h3{
     text-align: right;
 }
 
-.main-container{
-    max-width: 960px;
-    margin: auto;
-}
-.header{
+/* .main-container{ */
+/* max-width: 960px; */
+/* margin: 10px; */
+/* margin: auto; */
+
+/* } */
+.header {
     font-family: 'Roboto', sans-serif, Arial, Helvetica, sans-serif !important;
     /* font-family: 'Amiko', sans-serif; */
     /* font-family: 'Arima Madurai', cursive; */
@@ -117,20 +145,20 @@ h3{
     color: white;
     padding: 10px;
     text-align: center;
-    }
+}
 
 .profile-pic {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 200px;
+    border-radius: 100px;
     box-sizing: border-box;
     /* background-color: rgb(224, 100, 16) #ddd; */
     border: 5px solid rgb(224, 100, 16);
     padding: 30px;
     /* border-color: rgb(224, 100, 16); */
     border: 10px;
-    
+
 }
 
 .clearfix {
@@ -146,11 +174,11 @@ h3{
     color: white;
     text-align: center;
     padding: 10px;
-    }
+}
 
 body {
-    margin-left: 30px;
-    margin-right: 30px;
+    /* margin-left: 30px;
+    margin-right: 30px; */
     background-color: rgb(224, 100, 16) !important;
 }
 
@@ -158,42 +186,44 @@ body {
     color: orangered;
 }
 
-h1{
-/* font-family: 'Lobster', cursive; */
-/* font-family: 'Acme', sans-serif; */
-/* font-family: 'Righteous', cursive; */
-/* font-family: 'Ranga', cursive; */
-/* font-family: 'Francois One', sans-serif; */
-/* font-family: 'Kaushan Script', cursive; */
-font-family: 'Audiowide', cursive !important;
-/* font-family: 'Montserrat Alternates', sans-serif; */
-/* font-family: 'Playball', cursive; */
-/* font-family: 'Oleo Script', cursive; */
-/* font-family: 'Carter One', cursive; */
-text-shadow: 2px 2px 4px #000000;
+h1 {
+    /* font-family: 'Lobster', cursive; */
+    /* font-family: 'Acme', sans-serif; */
+    /* font-family: 'Righteous', cursive; */
+    /* font-family: 'Ranga', cursive; */
+    /* font-family: 'Francois One', sans-serif; */
+    /* font-family: 'Kaushan Script', cursive; */
+    font-family: 'Audiowide', cursive !important;
+    /* font-family: 'Montserrat Alternates', sans-serif; */
+    /* font-family: 'Playball', cursive; */
+    /* font-family: 'Oleo Script', cursive; */
+    /* font-family: 'Carter One', cursive; */
+    text-shadow: 2px 2px 4px #000000;
 }
 
-h1, h4{
-text-align: center;
+h1,
+h4 {
+    text-align: center;
 }
 
-h3, h4{
+h3,
+h4 {
     font-family: 'Acme', sans-serif !important;
     text-shadow: 2px 2px 4px #7c7b7b;
 }
 
-.responsive { 
+.responsive {
     width: 100%;
     height: auto;
 }
 
-.container {
+.container-style {
     background-color: white;
     margin: 30px;
-    Padding: 30px;
+    padding: 30px;
     border-radius: 15px;
 }
 
-.row {
+/* .row {
     justify-content: center;
-}
+} */
