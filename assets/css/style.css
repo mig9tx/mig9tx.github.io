@@ -6,8 +6,11 @@ html {
 @media screen and (max-width: 767px){
     .margin-top-xs{
         margin-top: 80px;}
-        p { font-size: 0.8rem;
+        p{ font-size: 0.8rem;
         }
+    #skills{
+        display: inline-block;
+    }
 }
 
 
@@ -25,9 +28,6 @@ html {
         .main-container {
             margin: 10px !important;
         }
-
-
-
     }
 }
 
@@ -58,12 +58,16 @@ i {
 
 #list-current {
     text-align: center;
+    
 }
 
 
-#skill-logo {
+.skill-logo
+{
     position: relative;
-    display: inline-block;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px !important;
 
 }
 
@@ -71,6 +75,7 @@ i {
     border: 1px solid rgb(224, 100, 16);
     border-radius: 5px;
     display: inline-block;
+    justify-content: space-evenly !important;
     padding: 5px;
     box-shadow: 2.5px 5px grey;
 
@@ -100,12 +105,14 @@ i {
 .container {
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-left: 30px !important;
+    padding-right: 30px !important;
 
 }
 
 #social {
     width: 30px;
-    color: orange;
+    color: rgb(224, 100, 16);;
 }
 
 /* main {
@@ -160,20 +167,25 @@ h3 {
     border: 10px;
 
 }
+.button-style{
+    
+    text-align: center;
+}
 
 .clearfix {
     clear: both;
 }
 
-.footer {
+.footer-style {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: teal;
+    background-color: rgb(224, 100, 16);;
     color: white;
     text-align: center;
-    padding: 10px;
+    vertical-align: middle;
+    /* margin-top: 16px !important; */
 }
 
 body {
@@ -224,6 +236,7 @@ h4 {
     border-radius: 15px;
 }
 
-/* .row {
-    justify-content: center;
-} */
+.row-style {
+    justify-content: space-evenly;
+    align-content: flex-start;
+}
