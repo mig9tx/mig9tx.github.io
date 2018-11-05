@@ -3,12 +3,20 @@ html {
     /* margin: 0 auto 0 auto; */
 }
 
-@media screen and (max-width: 767px){
-    .margin-top-xs{
-        margin-top: 80px;}
-        p{ font-size: 0.8rem;
-        }
-    #skills{
+@media screen and (max-width: 767px) {
+    .margin-top-xs {
+        margin-top: 80px;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
+    #skills {
+        display: inline-block;
+    }
+
+    .skill-logo {
         display: inline-block;
     }
 }
@@ -17,6 +25,9 @@ html {
 @include media-breakpoint-up(xs) {
     .margin-top-xs {
         margin-top: 20px;
+    }
+    .skill-logo{
+        display: inline-block;
     }
 }
 
@@ -58,12 +69,11 @@ i {
 
 #list-current {
     text-align: center;
-    
+
 }
 
 
-.skill-logo
-{
+.skill-logo {
     position: relative;
     display: flex;
     justify-content: space-evenly;
@@ -112,7 +122,8 @@ i {
 
 #social {
     width: 30px;
-    color: rgb(224, 100, 16);;
+    color: rgb(224, 100, 16);
+    ;
 }
 
 /* main {
@@ -167,8 +178,9 @@ h3 {
     border: 10px;
 
 }
-.button-style{
-    
+
+.button-style {
+
     text-align: center;
 }
 
@@ -181,7 +193,8 @@ h3 {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(224, 100, 16);;
+    background-color: rgb(224, 100, 16);
+    ;
     color: white;
     text-align: center;
     vertical-align: middle;
