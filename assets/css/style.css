@@ -75,7 +75,7 @@ i {
 
 .skill-logo {
     position: relative;
-    display: flex;
+    /* display: flex; */
     justify-content: space-evenly;
     padding-bottom: 20px !important;
 
