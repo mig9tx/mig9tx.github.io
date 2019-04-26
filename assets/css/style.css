@@ -54,6 +54,7 @@ html {
     }
 }
 
+
 .hideme {
     opacity: 0;
 }
@@ -66,10 +67,18 @@ i {
     border: 5px;
 
 }
+#intro {
+    margin: 0 7rem;
+}
 
 #list-current {
     text-align: center;
 
+}
+
+#social-content{
+    justify-content: space-evenly;
+    padding-top: 1rem;
 }
 
 ul{
@@ -114,6 +123,7 @@ ul{
 .nav-link:hover {
     transform: scale(1.2);
 }
+
 
 #workExperience,
 .container {
